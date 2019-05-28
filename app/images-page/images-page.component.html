@@ -1,0 +1,13 @@
+<ng-scrollbar compact="true" autohide="true" class="page">
+  <div class="top flex straight_reverse">
+      <div id="helloText">
+          <span id="title">My Artworks</span>
+          <br>
+          <span id="text">Some of examples of my works I made at my past position and for myself</span>
+      </div>
+  </div>
+  <section class="container">
+    <app-image-preview *ngFor="let image of images" [image]="image" class="section"></app-image-preview>
+  </section>
+</ng-scrollbar>
+

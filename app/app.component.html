@@ -1,0 +1,17 @@
+<nav>
+  <ul>
+    <li><a [routerLink]="act ? '/home' : null" [class.non-active]="!act">Home</a></li>
+    <li><a [routerLink]="act ? '/works' : null"  [class.non-active]="!act">Works</a></li>
+    <li><a [routerLink]="act ? '/skills' : null"  [class.non-active]="!act">Skills</a></li>
+    <li><a [routerLink]="act ? '/contacts' : null" [class.non-active]="!act">Contacts</a></li>
+  </ul>
+</nav>
+<div [@routeAnimations]="prepareRoute(outlet)"
+  (@routeAnimations.start)="changeAct()"
+  (@routeAnimations.done)="changeAct()"
+>
+  <router-outlet #outlet="outlet" 
+    (activate)="l($event)" 
+    (deactivate)="u($event)">
+  </router-outlet>
+</div>

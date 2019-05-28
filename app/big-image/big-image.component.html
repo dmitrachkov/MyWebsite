@@ -1,0 +1,40 @@
+<ng-scrollbar compact="true" autohide="true" class="page" *ngIf="image">
+    <h1>{{image.title}}</h1>
+    <figure *ngFor="let im of image.url2; index as i" [@loadedImage] = "image.active[i] ? 'yes' : 'no'" >
+        <img src={{im}} (load)="image.active[i] = true">
+    </figure>
+
+</ng-scrollbar>
+
+<svg id="back" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="150px" height="150px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 40.841 40.841"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+    .fil0 {fill:white}
+    .fil1 {fill:cornflowerblue}
+		#flood, #bg {
+			transition: all 350ms ease;
+		}
+		#back:hover #bg {
+			transform: scale(0.98) translate(1%, 1%);
+		}
+		#back:hover #flood {
+			flood-opacity:1;
+		}
+  </style>
+	 	 	 <filter id="shadow5">
+		 <feOffset dx="0.25" dy="0.45"/>
+		 <feGaussianBlur stdDeviation="0.9" result="blur"/>
+		 <feComposite operator="out" in="SourceGraphic" in2="blur" result="first"/>
+		 <feFlood id="flood" flood-color='black' flood-opacity='0.1' result='color'/>
+		 <feComposite operator="in" in="color" in2="first" result="second"/>
+		 <feComposite operator="over" in2="SourceGraphic" in="second"/>
+	 </filter>
+ </defs>
+ <g (click)="back()">
+ <rect class="fil0" width="40.841" height="40.841" rx="4.084" ry="4.084" filter="url(#shadow5)"/>
+  <path class="fil1" d="M30.137 5.445l-9.145 0 -10.288 14.976 10.288 14.975 9.145 0 -10.288 -14.975 10.288 -14.976zm-4.572 0m-9.717 7.488m0 14.975m9.717 7.488m-0.572 -7.488m0 -14.975" filter="url(#shadow5)"/>
+
+ </g>
+  </svg>

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Raleway');
+:host {
+  display: block;
+  position: relative;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background: cornflowerblue;
+  box-shadow: 0 0 5vw 2vw black;
+}
+
+.page {
+  --scrollbar-color: transparent;
+  --scrollbar-container-color: transparent;
+  --scrollbar-thumb-color: rgba(0, 89, 255, 0.5);
+  --scrollbar-thumb-hover-color: rgb(47, 91, 173);
+  --scrollbar-border-radius: 4px;
+  --scrollbar-size: 6px;
+  --scrollbar-padding: 8px;
+  --scroll-view-margin: 0;
+  --scroll-view-color: transparent;
+}
+.container {
+  max-width: 1200px;
+  width: 95vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5vh auto;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+}
+
+.top {
+  width: 100vw;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+  background: black;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: bold;
+}
+
+span {
+  display: block;
+}
+#title {
+  font-size: 4em;
+}
+#text {
+  font-size: 1.5em;
+}
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 600px) {
+  #helloText {
+    width: 85vw;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  #helloText {
+    width: 85vw;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 320px) {
+  #helloText {
+    width: 85vw;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

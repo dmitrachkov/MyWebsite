@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Rajdhani|Satisfy");
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Raleway');
+:host {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background-color: cornflowerblue;
+  box-shadow: 0 0 5vw 2vw black;
+}
+.top {
+  width: 100vw;
+  min-width: inherit;
+  height: 72vh;
+  margin: 0 auto;
+  padding: 0;
+  color: #ededed;
+  background: #000000;
+}
+#helloText {
+  font-family: 'Advent Pro', sans-serif;
+  color: whitesmoke;
+  position: relative;
+  font-weight: bold;
+}
+#helloText > span{
+  display: block;
+}
+.hidden{
+  visibility: hidden;
+}
+#title {
+  font-size: 6em;
+}
+#greetings {
+  font-size: 2em;
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 600px) {
+  #helloText {
+    width: 85vw;
+  }
+}
+
+@media (max-width: 480px) {
+  #helloText {
+    width: 85vw;
+  }
+
+}
+
+@media (max-width: 320px) {
+  #helloText {
+    width: 85vw;
+  }
+}

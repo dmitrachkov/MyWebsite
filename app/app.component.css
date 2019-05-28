@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Raleway');
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2em;
+  padding: 0 2em;
+  height: inherit;
+}
+li {
+  list-style: none;
+  display: inline;
+  margin: 0 2rem;
+}
+a{
+  text-decoration: none;
+  color: lightgray;
+  transition: color 300ms ease, opacity 500ms ease;
+}
+a:hover {
+  color: white;
+}
+
+.non-active {
+  opacity: 0.1;
+  cursor: wait;
+}
+
+span {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 2rem;
+  text-shadow: 0 0.2vmin 0.1vmin rgb(44, 44, 44);
+}
+
+nav {
+  align-items: center;
+  font-family: 'Advent Pro', sans-serif;
+  color: lightgray;
+  width: 100vw;
+  height: 6vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9000;
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0));
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 600px) {
+
+  ul {
+    margin: 0 3em;
+    justify-content: space-around;
+  }
+  li {
+    margin: 0;
+  }
+
+}
+
+@media (max-width: 480px) {
+  ul {
+    margin: 0 3em;
+    justify-content: space-around;
+  }
+  li {
+    margin: 0;
+  }
+
+}
+
+@media (max-width: 320px) {
+  ul {
+    margin: 0 3em;
+    justify-content: space-around;
+  }
+  li {
+    margin: 0;
+  }
+}
+
+

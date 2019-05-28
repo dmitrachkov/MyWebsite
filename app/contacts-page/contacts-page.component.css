@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Rajdhani|Satisfy");
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Advent+Pro|Raleway');
+
+:host {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background: cornflowerblue;
+  box-shadow: 0 0 5vw 2vw black;
+}
+.page {
+  --scrollbar-color: transparent;
+  --scrollbar-container-color: transparent;
+  --scrollbar-thumb-color: rgba(0, 139, 139, 0.5);
+  --scrollbar-thumb-hover-color: #008B8B;
+  --scrollbar-border-radius: 4px;
+  --scrollbar-size: 6px;
+  --scrollbar-padding: 8px;
+  --scroll-view-margin: 0;
+  --scroll-view-color: transparent;
+}
+
+.top {
+  width: 100vw;
+  height: 41vh;
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+  background: black;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: bold;
+}
+
+span {
+  display: block;
+}
+#title {
+  font-size: 4em;
+}
+#text {
+  font-size: 1.5em;
+}
+
+#links {
+  display: flex;
+  margin: 15vh auto;
+  padding: 0;
+  width: 80vw;
+  max-width: 768px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.ico {
+  display: block;
+  list-style: none;
+  margin: 0;
+  width:20vh;
+  max-width: 130px;
+  height: 20vh;
+  max-height: 130px;
+}
+svg {
+  width:20vh;
+  max-width: 130px;
+  height: 20vh;
+  max-height: 130px; 
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Advent Pro', sans-serif;
+  color: white;
+}
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 600px) {
+  #links {
+    width: 92vw;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .ico {
+    width: 35vw;
+    height: 35vw;
+    max-width: none;
+    max-height: none;
+    margin: 3vw 0;
+  }
+  svg {
+    width: 35vw !important;
+    height: 35vw !important;
+  }
+  footer {
+    position: relative;
+  }
+
+}
+
+@media (max-width: 480px) {
+  #links {
+    width: 92vw;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .ico {
+    width: 40vw;
+    height: 40vw;
+    max-width: none;
+    max-height: none;
+    margin: 3vw 0;
+  }
+  svg {
+    width: 40vw !important;
+    height: 40vw !important;
+  }
+  footer {
+    position: relative;
+  }
+
+}
+
+@media (max-width: 320px) {
+  #links {
+    width: 92vw;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .ico {
+    width: 40vw;
+    height: 40vw;
+    max-width: none;
+    max-height: none;
+    margin: 3vw 0;
+  }
+  svg {
+    width: 40vw !important;
+    height: 40vw !important;
+  }
+  footer {
+    position: relative;
+  }
+}
