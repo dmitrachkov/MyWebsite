@@ -1,0 +1,93 @@
+[
+  {
+     "title": "Texas bull",
+     "elem": "#01_bull",
+     "position": null,
+     "active": [false, false, false],
+     "url": "../../assets/graphic/small-skull.jpg",
+     "url2": [
+        "../../assets/graphic_big/big-skull-1.jpg",
+        "../../assets/graphic_big/big-skull-2.jpg",
+        "../../assets/graphic_big/big-skull-3.jpg"
+     ],
+     "description": "Sculpting object. Nice patriotic Full HD wallpaper"
+  },
+  {
+     "title": "Coat of arms",
+     "elem": "#02_shield",
+     "position": null,
+     "active": [false, false, false],
+     "url": "../../assets/graphic/small-shield.jpg",
+     "url2": [
+      "../../assets/graphic_big/big-shield-1.jpg",
+      "../../assets/graphic_big/big-shield-2.jpg",
+      "../../assets/graphic_big/big-shield-3.jpg"
+     ],
+     "description": "My first finished 3D-model. I got this order like freelancer and made it for printing a flag and manufacturing of medals."
+  },
+  {
+     "title": "Abstract",
+     "elem": "#03_abstract",
+     "position": null,
+     "active": [false, false, false],
+     "url": "../../assets/graphic/small-balls.jpg",
+     "url2": [
+      "../../assets/graphic_big/big-balls-1.jpg",
+      "../../assets/graphic_big/big-balls-2.jpg",
+      "../../assets/graphic_big/big-balls-3.jpg"
+     ],
+     "description": "Just abstract work with RGB lights."
+  },
+  {
+     "title": "Business cards",
+     "elem": "#04_cards",
+     "position": null,
+     "active": [false, false, false],
+     "url": "../../assets/graphic/small-businesscards.jpg",
+     "url2": [
+      "../../assets/graphic_big/big-businesscards-1.jpg",
+      "../../assets/graphic_big/big-businesscards-2.jpg",
+      "../../assets/graphic_big/big-businesscards-3.jpg"
+     ],
+     "description": "Examples of business cards I made for customers."
+  },
+  {
+     "title": "Printing stamps",
+     "elem": "#05_stamp",
+     "position": null,
+     "active": [false],
+     "url": "../../assets/graphic/small-stamps.jpg",
+     "url2": [
+      "../../assets/graphic_big/big-stamps-1.jpg"
+     ],
+     "description": "Catalog of printing stamps I made at my last job position."
+  },
+  {
+     "title": "Glass awards",
+     "elem": "#06_glasses",
+     "position": null,
+     "active": [false, false, false, false],
+     "url": "../../assets/graphic/small-glasses.jpg",
+     "url2": [
+      "../../assets/graphic_big/big-glasses-1.jpg",
+      "../../assets/graphic_big/big-glasses-2.jpg",
+      "../../assets/graphic_big/big-glasses-3.jpg",
+      "../../assets/graphic_big/big-glasses-4.jpg"
+     ],
+     "description": "A few glasses in my collection."
+  },
+  {
+     "title": "Golden ring",
+     "elem": "#07_ring",
+     "position": null,
+     "active": [false, false, false, false],
+     "url": "../../assets/graphic/small-ring.jpg",
+     "url2": [
+      "../../assets/graphic_big/big-ring-1.jpg",
+      "../../assets/graphic_big/big-ring-2.jpg",
+      "../../assets/graphic_big/big-ring-3.jpg",
+      "../../assets/graphic_big/big-ring-4.jpg"
+     ],
+     "description": "Ring model is made for a private jeweler. The model was printed a shape for casting a ring."
+  }
+]
