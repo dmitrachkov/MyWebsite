@@ -9,5 +9,9 @@ I added [ngx-scrollbar](https://murhafsousli.github.io/ngx-scrollbar/) in my pro
 To build that project you need put `app` and `assets` folders into `YourProject/src` folder and aditionally and make `npm i -S ngx-scrollbar @angular/cdk` command to include [ngx-scrollbar](https://murhafsousli.github.io/ngx-scrollbar/) module.
 
 ### Knowed issue
-
-Angular adds additonal non-standart value to `background-clip: text` in css. Consequently text effects can be rendered not as expected. To fix it you need change this property in compiled `main.....js` file
+I have 2 properties in css to clip text's background (regular and with prefix)
+```
+background-clip: text;
+-webkit-background-clip: text;
+```
+Angular adds additonal non-standart `background: padding-box text ...`  and removes `background-clip: text`. Consequently text effects can be rendered not as expected. To fix it you need change `background` property to keep only color information and keep `-webkit-background-clip: text` in compiled `main.....js` file
