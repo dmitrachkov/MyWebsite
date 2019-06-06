@@ -6,7 +6,7 @@ For now it contain images I made with Cinema 4D and Maya + Arnold render. In a f
 
 I added [ngx-scrollbar](https://murhafsousli.github.io/ngx-scrollbar/) in my project
 
-To build that project you need put `app` and `assets` folders into `YourProject/src` folder and aditionally and make `npm i -S ngx-scrollbar @angular/cdk` command to include [ngx-scrollbar](https://murhafsousli.github.io/ngx-scrollbar/) module.
+To build that project you need put `app` and `assets` folders into `YourProject/src` folder and aditionally type `npm i -S ngx-scrollbar @angular/cdk` command to include [ngx-scrollbar](https://murhafsousli.github.io/ngx-scrollbar/) module.
 
 ### Knowed issue
 I have 2 properties in css to clip text's background (regular and with prefix)
